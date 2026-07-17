@@ -1,1 +1,1 @@
-# AI-ML-Engineer-Journey
+# AI/ML-Engineer-Journey

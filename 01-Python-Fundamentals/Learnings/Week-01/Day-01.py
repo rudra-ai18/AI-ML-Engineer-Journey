@@ -1,71 +1,100 @@
-# Practice Question 1
-#  Print your name.
 
-name = "RUDRA PRATAP SINGH CHAUHAN"
-print(name)
+print("Hello world")
+my_name = 'Rudra Pratap Singh Chauhan'
+print(my_name)
 
-# Practice Question 2
-#  Print your age.
+# 2.Print your age.
 
-age = 20
+age = 21 
 print(age)
 
-# Practice Question 3
-# Print a dream job.
+# 3.Print your dream job.
 
-dream_job = "AI\ML ENGINEER"
+dream_job = 'Software Engineer'
 print(dream_job)
 
-# Practice Question 4
-# Print your Programming Language
+# 4.Print your favorite programming language.
 
-programming_language = "Python"
-print(programming_language)
+favorite_language = 'Python'
+print(favorite_language)
 
-# Practice Question 5
-#Print three lines using three print() statements.
+# 5.Print three lines using three print() statements.
 
-Line1 = "I'm Rudra Pratap Singh Chauhan"
-Line2 = "I'm 21 years old"
-Line3 = "I want to become  AI/ML Engineer"
+Line1 = "be yourself"
+Line2 = "be real"
+Line3 = "be honest"
+
+
 print(Line1)
 print(Line2)
 print(Line3)
 
-# Practice Question 6
-# Print a welcome message inside a decorative border made with *
+# 6. Print a welcome message inside a decorative border made with *.
 
-random = "*Welcome*"
-print(random)
+welcome_message = "Welcome to Python Programming!"
+border = "*" * (len(welcome_message) + 4)
 
-# Practice Question 7
-#Print a simple introduction about yourself.
+print(border)
+print(f"* {welcome_message} *")
+print(border)
 
-MY_INTRODUCTION = "I'm Rudra Pratap Singh Chauhan. I'm 19 years old and pursuing a career in AI\ML . This is all about me Thank you" 
-print(MY_INTRODUCTION)
+#7.  Print a simple introduction about yourself.
 
-# Practice Question 8
-#Print today's date (hardcoded).
+introduction = "hello, my name is Rudra Pratap Singh Chauhan. I'm 21 years old and I aspire to become AI/ML engineer."
+print(introduction)
 
-today_date = "18 July, 2026"
-print(today_date)
+#8. Print today's date (hardcoded).
+print("Today's date is: 2023-10-05")
 
-# Practice Question 9
-#Print a motivational quote.
+#9. Print a motivational quote.
 
-quoteofthe_day = "Whatever you want to do, do with full passion and work really hard towards it."
-print(quoteofthe_day)
 
-# Practice Question 10
-#Print a simple ASCII art, for example:
- #  /\
- # /  \
- #/____\
- #|    |
- #|____|
+motivational_quote = "The only way to do great work is to love what you do. - Steve Jobs"
+print(motivational_quote)
 
-print("/ \\")
-print("/  \\")
-print("/___\\")
-print("|   |")
-print("|___|")
+#10. Print a simple ASCII art, for example:
+#    /\
+#   /  \
+#  /____\
+#  |    |   
+#  |____|
+
+
+ascii_art = """
+    /\\
+   /  \\
+  /____\\
+  |    |   
+  |____|
+"""
+print(ascii_art)
+
+
+## Variables
+
+
+#1. Store your name in a variable and print it.
+
+
+my_name = "Rudra Pratap Singh Chauhan"
+print(my_name)
+
+#2. Create variables for:
+
+#Name
+#College
+#Country
+#Dream Job  
+ 
+ #Print them in a well-formatted profile
+
+Name = "Rudra Pratap Singh Chauhan"
+College = "IIT Jodhpur"
+Country = "India"
+Dream_job = "AI/ML Engineer"
+
+print("my_name.", Name)
+
+
+
+

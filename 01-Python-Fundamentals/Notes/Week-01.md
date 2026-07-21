@@ -84,7 +84,7 @@ python filename.py
 - `\\` prints a backslash.
 - Debugging is part of programming.
 
-Day 2 – Variables
+##y 2 – Variables
 📖 What I Learned
 1. What is a Variable?
 A variable is a name (identifier) that refers to a value stored in memory.

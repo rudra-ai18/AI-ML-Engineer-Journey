@@ -6,67 +6,62 @@ print()
 
 
 
-nam01 = input("Enter Full Name      :")
-fnam02 = input("Enter Father's Name :")
-mnam02 = input("Enter Mother's Name :")       
-Nage = int(input(" Enter Age        :"))
-Ndate = int(input("Date of Birth    :"))
-ncity = input(" Enter City          :")
-nstat = input("Enter State          :")
-
-print()
+print("\n" + "=" * 60)
 print("👤 PERSONAL INFORMATION")
+print("=" * 60)
+
+name = input("Enter Full Name       : ")
+father_name = input("Enter Father's Name   : ")
+mother_name = input("Enter Mother's Name   : ")
+age = int(input("Enter Age             : "))
+dob = input("Enter Date of Birth   : ")
+city = input("Enter City            : ")
+state = input("Enter State           : ")
+
+print("\n" + "-" * 60)
+print("PERSONAL INFORMATION")
 print("-" * 60)
+print("Full Name       :", name)
+print("Father's Name   :", father_name)
+print("Mother's Name   :", mother_name)
+print("Age             :", age)
+print("Date of Birth   :", dob)
+print("City            :", city)
+print("State           :", state)
 
-print("Full Name      :", nam01)
-print("Father's Name  :", fnam02)
-print("Mother's Name  :", mnam02)
-print("Age            :", Nage)
-print("Date of Birth  :", Ndate)
-print("City           :", ncity)
-print("State          :", nstat)
+print("\n" + "=" * 60)
+print("📚 SUBJECT MARKS")
+print("=" * 60)
 
+sub1 = int(input("Enter Python Marks        : "))
+sub2 = int(input("Enter Mathematics Marks   : "))
+sub3 = int(input("Enter English Marks       : "))
+sub4 = int(input("Enter AI Fundamentals     : "))
+sub5 = int(input("Enter Statistics Marks    : "))
 
-
-col1 = input(" Enter College Name  :")
-col2 = input(" Enter Course Name   :")
-col3 = int(input("Enter Semester  :"))
-col4 = (input("Enter Roll number  :"))
-print()
-print("🎓 ACADEMIC INFORMATION")
-
-print("College Name:", col1)
-print("Course Name:", col2)
-print("Semester:", col3)
-print("Roll Number:", col4)
-
-
-
-
-
-sub1 = int(input("Enter Python Marks       :"))
-sub2 = int(input(" Enter Mathematics Marks:"))
-sub3 = int(input(" Enter English Marks    :"))
-sub4 = int(input(" Enter AI Fundamentals Marks:"))
-sub5 = int(input("Enter Statistics Marks:"))
 total_marks = sub1 + sub2 + sub3 + sub4 + sub5
-Average_marks = total_marks//5
-percent = total_marks/500*100
+average_marks = total_marks / 5
+percentage = (total_marks / 500) * 100
 
-print()
-print("🎓 ACADEMIC INFORMATION")
+print("\n" + "-" * 60)
+print("SUBJECT MARKS")
 print("-" * 60)
-print("College Name      :", col1)
-print("Course Name       :", col2)
-print("Semester          :", col3)
-print("Roll Number       :", col4)
+print("Python Marks        :", sub1)
+print("Mathematics Marks   :", sub2)
+print("English Marks       :", sub3)
+print("AI Fundamentals     :", sub4)
+print("Statistics Marks    :", sub5)
+print("-" * 60)
+print("Total Marks         :", total_marks)
+print("Average Marks       :", round(average_marks, 2))
+print("Percentage          :", round(percentage, 2), "%")
 
 
-print()
 
-print("Total marks:", total_marks)
-print("Average Marks:", Average_marks)
-print("Percentage:", percent)
+
+
+
+
 
 height_ = float(input("Height:")) # in meters
 weight_ = float(input("weight:"))

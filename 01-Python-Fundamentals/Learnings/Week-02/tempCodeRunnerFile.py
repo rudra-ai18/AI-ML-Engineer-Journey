@@ -1,5 +1,15 @@
-# 6. Take your age and check if it is greater than 18.v
+# if Statement
 
-# age_ = int(input("Enter Age:"))
-# criteria_ = age_ > 18
-# print("I'm adult:", criteria_)
+# # 13. Check if a number is positive.
+
+# a = int(input("Enter Number:"))
+
+# if a > 0:
+#     print("Positive number")
+
+# # 14. Check if salary is greater than 50000
+
+# salarly_ = int(input("Enter Salarly:"))    
+
+# if salarly_ > 50000:
+#     print("Salarly")

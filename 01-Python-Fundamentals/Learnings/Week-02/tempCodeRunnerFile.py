@@ -1,15 +1,20 @@
-# if Statement
 
-# # 13. Check if a number is positive.
+# t = int(input("Enter temperature:"))
 
-# a = int(input("Enter Number:"))
+# if t < 0:
+#     print(" Freezing Cold")
 
-# if a > 0:
-#     print("Positive number")
+# elif t >= 0 and t <= 10:
+#     print("Very cold")
 
-# # 14. Check if salary is greater than 50000
+# elif t >= 10 and t <= 20:
+#     print("Cold")
 
-# salarly_ = int(input("Enter Salarly:"))    
+# elif t >= 20 and  t <= 30:
+#     print("Pleasant")
 
-# if salarly_ > 50000:
-#     print("Salarly")
+# elif t >= 30 and t <= 40:
+#     print("Hot") 
+
+# elif t >= 40 and t <= 50:
+#     print("Very Hot")

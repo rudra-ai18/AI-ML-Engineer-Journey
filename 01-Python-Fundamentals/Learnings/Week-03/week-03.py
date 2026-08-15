@@ -1,109 +1,109 @@
-# # For loop
+ # For loop
 
-# # 1.   6 at a time
+# 1.   6 at a time
 
-# for i in range(7):
-#     print(i)
+for i in range(7):
+    print(i)
 
-# # 2.  range(start, stop)
+# 2.  range(start, stop)
 
-# for i in range(2,7):
-#     print(i)
+for i in range(2,7):
+    print(i)
 
-# # 3.   range(start, stop, step)
+# 3.   range(start, stop, step)
 
-# for i in range(2,11,2):
-#     print(i)
+for i in range(2,11,2):
+    print(i)
 
 
-# # 4. Reverse counting range(10, 0, -1)
+# 4. Reverse counting range(10, 0, -1)
 
-# for i in range(10, 0 ,-1):
-#     print(i)
+for i in range(10, 0 ,-1):
+    print(i)
 
-# # 5. Print numbers from 1 to 10 
+# 5. Print numbers from 1 to 10 
 
-# for i in range(1,11,1):    
-#     print(i)
+for i in range(1,11,1):    
+    print(i)
 
 # # 6. Print numbers from 10 to 1.
 
-# for i in range(10,0,-1):
-#     print(i)
+for i in range(10,0,-1):
+    print(i)
 
-# # 7. Print your name 10 times.
+# 7. Print your name 10 times.
 
-# for i in range(5):
-#     print("Rudra")
-
-
-# # 8. Print numbers from 1 to 50
-
-# for i in range(1,50):
-#     print(i)
+for i in range(5):
+    print("Rudra")
 
 
-# # 9. Print numbers from 50 to 1
+ # 8. Print numbers from 1 to 50
 
-# for i in range(50,0,-1):
-#     print(i)
-
-# # 10. Print even numbers from 1 to 20.
-
-# for i in range(0,20,2):
-#     print(i) 
+for i in range(1,50):
+    print(i)
 
 
-# # 11. Print odd numbers from 1 to 20.
+# 9. Print numbers from 50 to 1
 
-# for i in range(1,20,2):
-#     print(i)
+for i in range(50,0,-1):
+    print(i)
 
+ # 10. Print even numbers from 1 to 20.
 
-# # 12. Print multiples of 5 till 100.
-
-# for i in range(5,105,5):
-#     print(i)
-
-# # 13. Print squares from 1 to 20.
-
-# for i in range(1, 21):
-#     print(i**2)
+for i in range(0,20,2):
+    print(i) 
 
 
-# # 14. Print cubes from 1 to 15.
+ # 11. Print odd numbers from 1 to 20.
 
-# for i in range(1,16):
-#     print(i**3)
+for i in range(1,20,2):
+    print(i)
 
-# # 15. . Print multiplication table of 2
 
-# for i in range(1,11):
+ # 12. Print multiples of 5 till 100.
 
-#     print(i*2)
+for i in range(5,105,5):
+    print(i)
 
-# # 16. Print first 25 natural numbers.
+ # 13. Print squares from 1 to 20.
 
-# for i in range(1,26):
-#     print(i)
+for i in range(1, 21):
+    print(i**2)
 
-# # 17. Print numbers divisible by 3
 
-# for i in range(3,100,3):
-#     print(i)
+ # 14. Print cubes from 1 to 15.
 
-# # 18. Print numbers divisible by both 2 and 5
+for i in range(1,16):
+    print(i**3)
 
-# for i in range(1,101):
-#     if i % 2 == 0 and i % 5 == 0:
-#         print(i)
+ # 15. . Print multiplication table of 2
 
-# # 19. Sum of numbers from 1 to 100.
-# sum = 0
+for i in range(1,11):
 
-# for i in range(1,101):
-#     sum +=  i
-#     print(sum)
+    print(i*2)
+
+ # 16. Print first 25 natural numbers.
+
+for i in range(1,26):
+    print(i)
+
+# 17. Print numbers divisible by 3
+
+for i in range(3,100,3):
+    print(i)
+
+# 18. Print numbers divisible by both 2 and 5
+
+for i in range(1,101):
+    if i % 2 == 0 and i % 5 == 0:
+        print(i)
+
+# 19. Sum of numbers from 1 to 100.
+sum = 0
+
+for i in range(1,101):
+    sum +=  i
+    print(sum)
 
 
 # 20. Sum of even numbers till 100.
@@ -111,114 +111,114 @@
 sum = 0
 
 
-# for i in range(0,101,2):
+for i in range(0,101,2):
 
-#     if i%2 == 0:
-#         sum += i
-#         print(sum)
+    if i%2 == 0:
+        sum += i
+        print(sum)
 
 
 # 21. Sum of odd numbers till 100.
 
 sum = 0
 
-# for i in range(1,101,2):
-#     if i%2 != 0:
-#         sum += i
-#         print(sum)
+for i in range(1,101,2):
+    if i%2 != 0:
+        sum += i
+        print(sum)
 
 # 22. Print numbers from 100 to 1 using loop.
 
-# for i in range(100,0,-1):
-#     print(i)
+for i in range(100,0,-1):
+    print(i)
 
 
 # 22. Print every third number till 100.
 
-# for i in range(1,101,3):
-#     print(i)
+for i in range(1,101,3):
+    print(i)
 
 
 # 23.  Accept an integer and Print hello world n times.
 
-# n = int(input("Enter a number"))
+n = int(input("Enter a number"))
 
-# for i in range(n):
-#     print("Hello World")
+for i in range(n):
+    print("Hello World")
 
 #24. Print natural number up to n
 
-# n = int(input("Enter Number"))
+n = int(input("Enter Number"))
 
-# for i in range(1,n+1):
-#     print(i)
+for i in range(1,n+1):
+    print(i)
 
 
 # 25. Reverse for loop. Print n to 1.
 
-# n =int(input("Enter number"))
+n =int(input("Enter number"))
 
-# for i in range(n,0,-1):
-#     print(i)
+for i in range(n,0,-1):
+    print(i)
 
 # 26. Take a number as input and print its table.
 
-# n = int(input("Enter a number,Which number table u want:"))
+n = int(input("Enter a number,Which number table u want:"))
 
-# for i in range(n,(n*10)+1,n):
-#     print(i)
+for i in range(n,(n*10)+1,n):
+    print(i)
 
 
 # 27. Sum up to n terms.
 
-# n = int(input("Enter a Number"))
+n = int(input("Enter a Number"))
 
-# sum = 0
+sum = 0
 
-# for i in range(1,n+1):
-#     sum = sum + i
-#     print(sum)
+for i in range(1,n+1):
+    sum = sum + i
+    print(sum)
 
 # 28. Factorial of a number.
 
-# n = int(input("Enter number"))
+n = int(input("Enter number"))
 
-# multi = 1
+multi = 1
 
-# for i in range(1,n+1):
-#     multi = multi*i
-#     print(multi)
+for i in range(1,n+1):
+    multi = multi*i
+    print(multi)
 
 # 29. Print the sum of all even & odd numbers in a range seprately.  
 
-# n = int(input("Enter a number"))
+n = int(input("Enter a number"))
 
-# even = 0
-# odd = 0
+even = 0
+odd = 0
 
-# for i in range(1,n+1):
-#     if i%2 == 0:
-#         even = even + i
-#     else:
-#         odd = odd + i
-# print(f"sum of all even{even},odd{odd}")
+for i in range(1,n+1):
+    if i%2 == 0:
+        even = even + i
+    else:
+        odd = odd + i
+print(f"sum of all even{even},odd{odd}")
 
 # 30. Print all the facotrs of numbers 
 
-# n = int(input("Enter Number"))
+n = int(input("Enter Number"))
 
-# for i in range(1,n+1):
-#     if n%i == 0:
-#         print(i)
+for i in range(1,n+1):
+    if n%i == 0:
+        print(i)
 
 
  # 31.  Accept a number and check if it a perfect number or not.
 
-# n = int(input("Enter number"))
+n = int(input("Enter number"))
 
-# for i in range(1,n+1):
-#     if n%i == 0:
-#         print(i)
+for i in range(1,n+1):
+    if n%i == 0:
+        print(i)
 
 
 # 32. Accept a number and check if it a perfect number or not and print that sum of equal to that perfect number.
@@ -235,6 +235,193 @@ if sum == n:
     print("perfect number")
 else:
     print("not perfect number")
+
+
+# 33. Print 1–10.
+
+a = 1
+
+
+while a <= 10:
+    print(a)
+    a = a + 1
+
+
+# 34. Print 10–1
+
+a = 10
+
+while a >= 1:
+    print(a)
+    a = a - 1
+
+# 35. Print even numbers.
+
+a = 1
+
+while a <= 10:
+    if a%2 == 0:
+        print(a)
+
+    a = a + 1
+
+# 36. Print odd numbers
+
+a = 1
+
+while a <= 10:
+    if a%2 != 0:
+        print(a)
+    a = a + 1    
+
+# 37. Print your name 10 times.
+
+counter = 1
+
+while counter <= 10:
+    print("Rudra")
+    counter = counter + 1
+
+# 38. First 20 natural numbers.
+
+num = 1
+
+while num <= 20:
+    print(num)
+    num = num + 1
+
+# 39. First 20 multiples of 3
+
+a = 1 
+
+while a <= 20:
+    print(a*3)
+    a = a + 1
+
+# 40. Reverse counting
+
+a = 100
+
+while a >= 1:
+    print(a)
+    a = a - 1
+
+#  41. Sum of first 100 numbers.
+
+a = 1
+sum = 0
+while a <= 100:
+    sum = sum + a
+    a = a + 1
+
+print("This is a total sum", sum)
+
+
+# 42. Sum of even numbers.
+
+a = 1
+sum = 0
+
+while a <= 30:
+    if a % 2 == 0:
+        sum =  sum + a
+    a = a + 1    
+
+print(sum)
+
+# 43. Sum of odd numbers.
+
+a = 1
+sum = 0
+
+while a <= 30:
+    if a%2 != 0:
+        sum = sum + a
+    a = a + 1
+
+print(sum)
+
+# 44. Multiplication table.
+
+num = int(input("Enter number"))
+
+i = 1
+
+while i <= 10:
+    result = num * i
+    print(f"{num}*{i} = {result}")
+    i = i + 1  
+
+# Break ,Continue and Pass
+
+# 45.Stop at 5 using break    
+
+for i in range(1, 10):
+   if i == 5:
+    break
+   print(i)
+
+# 46. Print numbers from 1 to 20, skip 10 using continue
+
+for i in range(1,20):
+   if i == 10:
+     continue
+   print(i)
+
+# 47. Print numbers from 1 to 30, skip multiples of 3.
+
+for i in range(1,30,):
+   if i%3 == 0:
+      continue
+   print(i)
+
+# 48. Print numbers from 1 to 50, stop when number becomes 25
+
+for i in range(1,50):
+   if i == 25:
+      continue
+   print(i)
+
+
+
+
+# 49. Print numbers from 1–100, skip even numbers
+
+for i in range(1,100):
+    if i % 2 == 0:
+        continue
+    print(i)
+
+# 50. Print numbers from 1–100, skip odd numbers.
+
+for i in range(1,100):
+    if i % 2 != 0:
+        continue
+    print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
 
 
 
